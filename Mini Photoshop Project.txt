@@ -1,0 +1,12 @@
+Mini Photoshop Project
+
+
+Core Libraries:
+
+OpenCV (cv2): The most important library. It handles all the image processing, such as reading the file, converting to grayscale, applying the Gaussian blur, and detecting edges using the Canny algorithm.
+
+Tkinter: The standard Python library used to create the Graphical User Interface (GUI). It provides the main window, the buttons, and the file dialogs for opening and saving images.
+
+Pillow (PIL): This is the "bridge" library. It is used to convert the images processed by OpenCV into a format that Tkinter can actually display on the screen.
+
+NumPy: A mathematical library that OpenCV uses behind the scenes to treat images as grids of numbers (arrays). This allows for fast processing of pixel data.
